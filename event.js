@@ -104,6 +104,32 @@ function getRandomColor() {
 
 
 
+//concat string
+let arr = ["hello", "hi", "niroj"]
+
+function concat(arr) {
+
+    let str = "";
+    for (i = 0; i < arr.length; i++) {
+        str += arr[i];
+    }
+    return str;
+
+}
+console.log(concat(arr));
+
+// Generate random number for dice
+
+function rollDice() {
+
+    let random = Math.floor(Math.random() * 6) + 1;
+    return random;
+}
+console.log(rollDice());
+console.log(rollDice());
+console.log(rollDice());
+console.log(rollDice());
+
 
 
 
